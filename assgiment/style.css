@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+.logo img {
+  height: 31px;
+  width: 132px;
+}
+.blog_stl {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.top_bar {
+    margin: 0px 50px;
+    margin-top: 30px;
+  }
+.view {
+  padding: 11px 21px;
+  border: none;
+  background: rgba(37, 37, 37, 0.2);
+  font-family: "Inter", sans-serif;
+}
+
+
+
+/* API BAR SECTION  */
+.Api_section {
+    padding-left: 22px !important;
+    margin-top: -11px;
+  }
+  
+  .bar button {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    padding: 8px 20px;
+    color: #252525fb;
+    background-color: #252525 0.15;
+    border: none;
+  }
+
+
+  .image_of_card img {
+    width: 312px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 5px;
+  }
+  .logo_of_card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+  .info_of_card img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .info_of_card h3 {
+    width: 260px;
+    color: #171717;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 0px;
+  }
+  .info_of_card p {
+    color: rgba(23, 23, 23, 0.7);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+  }
+  .details_container_card {
+    display: flex;
+    gap: 10px;
+  }
+  #Div_of_content{
+    gap:10px
+  }
+  .profile_name {
+    display: inline;
+  }
+  .hours_content {
+    position: absolute;
+    left: 203px;
+    bottom: -4px;
+    display: inline-flex;
+    padding: 6px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #171717;
+    color: #fff;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  /* :empty card section  */
+  .empty_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    top: 100px;
+  }
+  .empty_card p {
+    color: #171717;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    margin-top: 20px;
+  }
+  .empty_card img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+  }
+
+
+
+
+@media screen and (max-width:560px){
+    .top_bar{
+        flex-direction: column !important;
+        gap: 18px !important;
+        justify-content: center !important;
+        text-align:center !important;
+        align-items: center !important;
+    }
+    .logo_of_webpage img {
+        width: 115px;
+        height: 26px;
+
+    }
+    .view{
+        font-size: 16px !important;
+        padding: 10px 17px !important;
+    }
+    .blog_stl{
+        font-size: 15px !important;
+        padding: 10px 15px;
+    }
+    .bar button {
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        padding: 5px 15px;
+        color: #252525fb;
+        background-color: #252525 0.15;
+        border: none;
+      }
+}

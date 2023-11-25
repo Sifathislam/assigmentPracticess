@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phtube</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="Bar">
+        <div class="top_bar d-flex justify-content-between">
+            <div class="logo">
+                <img src="./images/Logo.png" alt="">
+            </div>
+
+            <div class="view_short_button" id="sort_button">
+                <button id="sort"class="view d-inline-flex justify-content-center align-items-center gap-2 rounded text-bg-dark">Sort by view</button>
+            </div>
+
+            <div class="blog" >
+                <a href="./blog.html" class="text-decoration-none border-danger bg-danger text-light d-inline-flex justify-content-center align-items-center g-2 bg-danger text-light rounded blog_stl text-light">Blog</a>
+            </div>
+        </div>
+    </div>
+    
+    <hr class="m-5 mt-4">
+
+    <div id="Div_of_api" class="d-flex justify-content-center Api_section align-items-center gap-3">
+    </div>
+
+    <div id="Div_of_content" class="content_div d-flex justify-content-start flex-row align-items-start flex-wrap g-4 mt-5 ms-4">
+
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
